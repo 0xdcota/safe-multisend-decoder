@@ -7,5 +7,9 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "decode:transactionBytes": "bun run index.ts",
+    "test": "bun test test/**/*.test.ts"
   }
 }
